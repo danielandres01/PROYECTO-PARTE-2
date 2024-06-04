@@ -12,6 +12,7 @@ public class EDAD_ALUMNOS {
         for (int i = 0; i < edad_alumnos; i++) {
             System.out.print(" POR FAVOR INGRESE LA CANTIDAD DE EDAD DE EL ESTUDIANTE " + (i + 1) + " : ");
             edades[i] = scanner.nextInt();
+            System.out.print( "POR FAVOR MUESTRE EL GRADO Y QUE COINCIDA CON EL AÑO DE EDAD" );
         }
 
         int sumamayores5 = 0;
